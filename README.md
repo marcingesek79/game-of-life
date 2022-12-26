@@ -11,7 +11,7 @@ make -C build
 ./build/game-of-life
 ```
 You can modify the board in the main.cpp by providing another .txt file.
-The format of the .txt file is specified in already existing files, indexing starts at (1, 1).
+The format of the .txt file is specified in already existing files.
 
 ### Boards
 - [Gosper's glider gun](https://en.wikipedia.org/wiki/Gun_(cellular_automaton)) (gosperGliderGun.txt)
