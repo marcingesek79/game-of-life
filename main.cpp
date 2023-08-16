@@ -2,7 +2,7 @@
 
 int main()
 {
-    const std::string PATH = "gosperGliderGun.txt";
+    const std::string PATH = "pulsar.txt";
     const int TURN_LIMIT = 500;
 
     Board board{ PATH };

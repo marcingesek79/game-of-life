@@ -23,4 +23,9 @@ You can modify the board in the main.cpp by providing another .txt file similar 
 
 ### Boards
 - [Gosper's glider gun](https://en.wikipedia.org/wiki/Gun_(cellular_automaton)) (gosperGliderGun.txt)
+
+https://imgur.com/a/UR0D16Q.png
+
 - [Pulsar](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#/media/File:Game_of_life_pulsar.gif) (pulsar.txt)
+
+https://imgur.com/a/NiUOxXv.png
