@@ -122,7 +122,7 @@ void Board::run(int turn_limit) noexcept
     while (this->turn < turn_limit)
     {
         this->takeTurn();
-        utils::sleepInMiliseconds(100);
+        utils::sleep();
         utils::clearTerminal();
     }
     this->print();

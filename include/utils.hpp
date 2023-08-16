@@ -9,6 +9,8 @@
 
 namespace utils {
 
+    static constexpr int SLEEP_TIME{ 100 };
+
     static void clearTerminal()
     {
         #ifdef _WIN32
@@ -18,9 +20,9 @@ namespace utils {
         #endif
     }
 
-    static void sleepInMiliseconds(int miliseconds)
+    static void sleep()
     {
-        std::this_thread::sleep_for(std::chrono::milliseconds(miliseconds));
+        std::this_thread::sleep_for(std::chrono::milliseconds(SLEEP_TIME));
     }
 
 }
